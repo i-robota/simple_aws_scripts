@@ -16,4 +16,4 @@ Queries ECS cluster for running services - finds Target groups and queries out i
 
 ### High_Plains_Cloudformation_Drift_Reporter
 
-If you use lots of nested stacks - drift detection for CFn is annoying to read. This queries a stack for all nested stacks and runs drift detection on all and gives a summary report.  Useful before tearing down stacks to make sure manual changes have not been committed to CloudFormation.
+If you use lots of nested stacks - drift detection for CFn is annoying to read. This queries a stack for all nested stacks and runs drift detection on all and gives a summary report.  Useful before tearing down stacks to make sure no manual changes were made to resources which were not committed to CloudFormation.
